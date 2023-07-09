@@ -1,4 +1,3 @@
-import { LineStyle, Timeline, TrendingUp } from "@mui/icons-material";
 import "./Sidebar.css";
 
 export default function Sidebar() {

@@ -14,3 +14,14 @@ body {
   color: #212529;
   text-align: left;
 }
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
