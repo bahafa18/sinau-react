@@ -7,10 +7,11 @@ import {
   WorkHistory,
 } from "@mui/icons-material";
 import "./Sidebar.css";
+import { useState } from "react";
 
-export default function Sidebar() {
+export default function Sidebar(props) {
   return (
-    <div className="sidebar">
+    <div className={props.data ? "sidebar hide" : "sidebar"}>
       <div className="header">
         <div className="list-item">
           <a href="#">

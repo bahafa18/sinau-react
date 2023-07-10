@@ -5,6 +5,12 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  transition: all ease-in 0.3s;
+}
+
+.sidebar.hide {
+  width: 87px;
+  transition: all ease-out 0.3s;
 }
 
 .sidebar .desc-header {
@@ -14,6 +20,10 @@
   line-height: 16px;
   text-align: center;
   color: #ffffff;
+}
+
+.sidebar.hide .desc-header {
+  display: none;
 }
 
 .sidebar .desc-header span {
@@ -48,6 +58,10 @@
   width: 200px;
 }
 
+.sidebar.hide .illustrations img {
+  display: none;
+}
+
 .sidebar .menu .list-item {
   border-radius: 8px;
   width: 212px;
@@ -77,4 +91,8 @@
   line-height: 16px;
   text-align: center;
   color: #ffffff;
+}
+
+.sidebar.hide .description {
+  display: none;
 }
